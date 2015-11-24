@@ -8,6 +8,6 @@
   <title>{% if page.title %}Visual Weekly Day {{ page.title }}{% else %}Visual Weekly{% endif %} | swizzlr</title>
 
   <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" type="text/css" media="screen, projection" />
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/assets/images/favicon.ico">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" type="text/css" media="screen, projection" />
+  <link rel="shortcut icon" type="image/x-icon" href={{ "/assets/images/favicon.ico" | prepend: site.baseurl }}"">
 </head>

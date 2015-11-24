@@ -1,6 +1,8 @@
 title: Visual Weekly
 description: A photo experiment
-url: "http://4711.gihub.io/vw"
+baseurl: "/vw"
+url: "http://4711.gihub.io"
+
 permalink: :title
 
 markdown: kramdown
