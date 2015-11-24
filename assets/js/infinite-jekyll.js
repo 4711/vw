@@ -70,7 +70,7 @@ $(function() {
   function fetchPostWithIndex(index, callback) {
     var postURL = postURLs[index];
 
-    $.delay(5000).get(postURL, function(data) {
+    $.get(postURL, function(data) {
       $(data).find(".post").appendTo(".post-list");
       callback();
     });
@@ -79,7 +79,7 @@ $(function() {
   function disableFetching() {
     shouldFetchPosts = false;
     isFetchingPosts = false;
-    $(".infinite-spinner").fadeOut();
+    $(".infinite-spinner").delay(3000).fadeOut();
   }
 
 });
