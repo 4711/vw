@@ -1,0 +1,12 @@
+title: Visual Weekly
+description: A photo experiment
+url: "http://4711.gihub.io/vw"
+permalink: :title
+
+markdown: kramdown
+
+sass:
+  style: :compressed
+  sass_dir: assets/sass
+
+exclude: [.gitignore, README.md]
