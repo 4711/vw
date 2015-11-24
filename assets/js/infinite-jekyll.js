@@ -58,7 +58,7 @@ $(function() {
           }
 
           if (loadedPosts < postsToLoad) {
-            console.log ( 'loadedPosts < postsToLoad' );
+            console.log ( 'loadedPosts: ' + loadedPosts + ' postsToLoad: ' +  postsToLoad);
             fetchPostWithIndex(postIndex, callback);
           } else {
             isFetchingPosts = false;
