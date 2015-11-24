@@ -71,7 +71,8 @@ $(function() {
     var postURL = postURLs[index];
 
     $.get(postURL, function(data) {
-      $(data).find(".post").appendTo(".post-list");
+      //$(data).find(".post").appendTo(".post-list");
+      $(data).find(".post").appendTo(".post-list").delay(2000).fadeIn();
       callback();
     });
   }
