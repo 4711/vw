@@ -72,7 +72,7 @@ $(function() {
 
     $.get(postURL, function(data) {
       //$(data).find(".post").appendTo(".post-list");
-      $(data).find(".post").appendTo(".post-list").delay(2000).fadeIn();
+      $(data).find(".post").delay(5000).appendTo(".post-list").fadeIn();
       callback();
     });
   }
