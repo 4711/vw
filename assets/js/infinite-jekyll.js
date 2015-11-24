@@ -70,9 +70,8 @@ $(function() {
   function fetchPostWithIndex(index, callback) {
     var postURL = postURLs[index];
 
-    $.get(postURL, function(data) {
-      //$(data).find(".post").appendTo(".post-list");
-      $(data).find(".post").delay(5000).appendTo(".post-list").fadeIn();
+    $.delay(5000).get(postURL, function(data) {
+      $(data).find(".post").appendTo(".post-list");
       callback();
     });
   }
