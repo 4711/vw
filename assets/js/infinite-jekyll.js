@@ -58,6 +58,7 @@ $(function() {
           }
 
           if (loadedPosts < postsToLoad) {
+            console.log ( 'loadedPosts < postsToLoad' );
             fetchPostWithIndex(postIndex, callback);
           } else {
             isFetchingPosts = false;
@@ -79,7 +80,7 @@ $(function() {
   function disableFetching() {
     shouldFetchPosts = false;
     isFetchingPosts = false;
-    $(".infinite-spinner").delay(3000).fadeOut();
+    $(".infinite-spinner").fadeOut();
   }
 
 });
