@@ -1,11 +1,11 @@
 <header class="site-header">
   <div class="wrapper">
-    <a class="site-title" href="/">Visual Weekly</a>
-    <a class="site-subtitle" href="/">by swizzler</a>
+    <a class="site-title" href="{{ "/" | prepend: site.baseurl }}">Visual Weekly</a>
+    <a class="site-subtitle" href="{{ "/" | prepend: site.baseurl }}">by swizzler</a>
 
     <nav class="site-nav">
       <div class="trigger">
-        <a class="page-link" href="/about">About</a>
+        <a class="page-link" href="{{ "/about" | prepend: site.baseurl }}">About</a>
       </div>
     </nav>
   </div>

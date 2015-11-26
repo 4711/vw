@@ -1,3 +1,6 @@
+---
+---
+
 $(function() {
 
   var postURLs,
@@ -7,7 +10,7 @@ $(function() {
       loadNewPostsThreshold = 3000;
 
   // Load the JSON file containing all URLs
-  $.getJSON('/all-posts.json', function(data) {
+  $.getJSON("{{ site.baseurl}}/all-posts.json", function(data) {
     postURLs = data["posts"];
 
     // If there aren't any more posts available to load than already visible, disable fetching
@@ -55,6 +58,7 @@ $(function() {
           }
 
           if (loadedPosts < postsToLoad) {
+            console.log ( 'loadedPosts: ' + loadedPosts + ' postsToLoad: ' +  postsToLoad);
             fetchPostWithIndex(postIndex, callback);
           } else {
             isFetchingPosts = false;
