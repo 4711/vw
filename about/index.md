@@ -11,21 +11,16 @@ You can construct the source URL to a photo once you know its ID, server ID, far
 
 The URL takes the following format:
 
-```
-https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
-```
 
-	or
+	https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
+ 
+or
 
-```
-https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg
-```
+	https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}_[mstzb].jpg
 
-	or
+or
 
-```
-https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|png)
-```
+	https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|png)
 
 ## Size Suffixes
 
