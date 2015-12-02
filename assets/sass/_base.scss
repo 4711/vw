@@ -113,6 +113,8 @@ blockquote p {
 }
 
 code {
+  font-size: $small-font-size;
+  line-height: 1;
   white-space: pre-wrap;
   background: $grey-color-light;
 }
