@@ -4,7 +4,9 @@ title: About
 ---
 
 ----
+
 Built: {{ site.time }}
+
 ----
 
 ### Photo Source URLs
