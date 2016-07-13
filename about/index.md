@@ -9,7 +9,6 @@ Built: {{ site.time }}
 
 ----
 
-jo
 
 ### Photo Source URLs
 
