@@ -1,6 +1,6 @@
 ---
-layout: about
 title: About
+layout: about
 ---
 
 ----
@@ -8,6 +8,8 @@ title: About
 Built: {{ site.time }}
 
 ----
+
+jo
 
 ### Photo Source URLs
 
