@@ -14,3 +14,8 @@ sass:
 exclude: [.gitignore, README.md, trigger-build.txt]
 
 future: false
+
+gems:
+  - jekyll-menus
+  - jekyll-feed
+  - jekyll-archives
