@@ -48,7 +48,12 @@ o	original image, either a jpg, gif or png, depending on source format
 
 † Medium 800, large 1600, and large 2048 photos only exist after March 1st 2012.
 
-Note: Original photos behave a little differently. They have their own secret (called originalsecret in responses) and a variable file extension (called originalformat in responses). These values are returned via the API only when the caller has permission to view the original size (based on a user preference and various other criteria). The values are returned by the flickr.photos.getInfo method and by any method that returns a list of photos and allows an extras parameter (with a value of original_format), such as flickr.photos.search. The flickr.photos.getSizes method, as always, will return the full original URL where permissions allow.
+Note: Original photos behave a little differently. They have their own secret (called originalsecret in responses) and a variable file extension (called originalformat in responses). 
+
+These values are returned via the API only when the caller has permission to view the original size (based on a user preference and various other criteria). The values are returned by the flickr.photos.getInfo method and by any method that returns a list of photos and allows an extras parameter (with a value of original_format), such as flickr.photos.search. 
+
+The flickr.photos.getSizes method, as always, will return the full original URL where permissions allow.
+
 Example
 
 ```
