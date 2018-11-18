@@ -10,7 +10,7 @@ Built: {{ site.time }}
 ----
 
 
-### Photo Source URLs
+# Photo Source URLs
 
 You can construct the source URL to a photo once you know its ID, server ID, farm ID and secret, as returned by many API methods.
 
@@ -27,7 +27,7 @@ or
 
 	https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{o-secret}_o.(jpg|gif|png)
 
-### Size Suffixes
+## Size Suffixes
 
 The letter suffixes are as follows:
 
